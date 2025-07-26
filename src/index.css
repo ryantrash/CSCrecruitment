@@ -328,7 +328,7 @@ h3,.h3{font-size:23px}
 h4,.h4{font-size:17px}
 h5,.h5{font-size:14px}
 h6,.h6{font-size:11px}
-p{margin:0 0 10px}
+p{margin:0 0 20px;font-size:18px}
 .lead{margin-bottom:20px;font-size:16px;font-weight:300;line-height:1.4}@media (min-width:768px){.lead{font-size:21px}}
 small,.small{font-size:85%}
 mark,.mark{background-color:#3c3c3c;padding:.2em}
