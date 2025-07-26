@@ -11,8 +11,9 @@ export default function Title() {
     }
 
     return (
-        <Link to="/" className="title">
-            &gt; OC_COMPUTER_SCIENCE_CLUB ~ {locationName}
-        </Link>
+        <>
+        <h1>O'Connor Computer Science Club</h1>
+        <h2>OC_CSC/{locationName}</h2>
+        </>
     );
 }

@@ -5,10 +5,12 @@ import Subheader from "../components/Subheader";
 
 import { welcomeText, clickText, handsOnText } from "../text";
 
-export default function App() {
+export default function Home() {
     return (
-        <div className="app-container">
+        <div className="container">
+            <div className="jumbotron">
             <Title />
+            </div>
             <Paragraph>{welcomeText + "\n\n" + clickText}</Paragraph>
             <Subheader level={1}>Our Projects:</Subheader>
             

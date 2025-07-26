@@ -1,6 +1,6 @@
 export default function Paragraph({ children }) {
     return (
-        <p className="paragraph">
+        <p className="p">
             {children}
         </p>
     );
