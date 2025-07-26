@@ -1,0 +1,3 @@
+export const welcomeText = "The Sandra Day O'Connor Computer Science Club is a student-led club meant to foster hands on STEM experience through hackathons and hands on projects. We are open to all students, regardless of experience level, and we encourage you to join us in our mission to make computer science accessible and fun for everyone.";
+export const clickText = "Click on the links below to learn more about our projects and how you can get involved.";
+export const handsOnText = "We provide hands-on experience through various projects and hackathons, allowing students to apply their skills in real-world scenarios. Our projects range from web development to robotics, ensuring there's something for everyone.";

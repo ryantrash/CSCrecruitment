@@ -1,0 +1,29 @@
+*{
+  background: #111;
+  color: #00ff41;
+  font-family: 'Share Tech Mono', 'Consolas', 'Courier New', monospace;
+  text-decoration: none;
+}
+.app-container{
+  padding: 1rem;
+}
+.title{
+  font-size: 3rem;
+  text-shadow: 0 0 1px #00ff41, 0 0 16px #00ff41;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.paragraph{
+  font-size: 1.2rem;
+  color: #39ff14;
+  text-shadow: 0 0 4px #39ff14;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.subheader{
+  font-size: 2rem;
+  color: #39ff14;
+  text-shadow: 0 0 4px #39ff14;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
