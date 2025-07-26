@@ -6,14 +6,14 @@ export default function Title() {
 
     if (location.pathname === '/') {
         locationName = 'Home';
-    } else if (location.pathname === '/about') {
-        locationName = 'About Us';
+    } else if (location.pathname === '/handsOn') {
+        locationName = 'handsOn';
     }
 
     return (
-        <>
-        <h1>O'Connor Computer Science Club</h1>
-        <h2>OC_CSC/{locationName}</h2>
-        </>
+        <div className="jumbotron">
+            <h1>O'Connor Computer Science Club</h1>
+            <h2>OC_CSC/{locationName}</h2>
+        </div>
     );
 }

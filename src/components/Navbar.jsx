@@ -11,7 +11,8 @@ export default function Navbar() {
                 <div className="navbar-right">
                     <ul className="nav navbar-nav">
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About Us</Link></li>
+                        <li><Link to="/handsOn">Hands On</Link></li>
+                        <li><Link to="/ocHacks">OCHacks</Link></li>
                     </ul>
                 </div>
             </div>

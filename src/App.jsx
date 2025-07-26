@@ -1,7 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
+import HandsOn from './pages/HandsOn';
+import OCHacks from './pages/OCHacks';
+
 import "./index.css";
 
 export default function App() {
@@ -10,7 +12,8 @@ export default function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />}/>
-                <Route path="/about" element={<About />}/>
+                <Route path="/handsOn" element={<HandsOn />}/>
+                <Route path="/ocHacks" element={<OCHacks />}/>
             </Routes>
         </Router>
     </div>
