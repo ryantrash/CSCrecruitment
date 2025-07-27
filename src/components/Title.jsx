@@ -5,15 +5,14 @@ export default function Title() {
     let locationName; 
 
     if (location.pathname === '/') {
-        locationName = 'Home';
-    } else if (location.pathname === '/handsOn') {
-        locationName = 'handsOn';
+        locationName = '/Home';
+    } else {
+        locationName = location.pathname; 
     }
-
     return (
         <div className="jumbotron">
             <h1>O'Connor Computer Science Club</h1>
-            <h2>OC_CSC/{locationName}</h2>
+            <h2>OC_CSC{locationName}</h2>
         </div>
     );
 }

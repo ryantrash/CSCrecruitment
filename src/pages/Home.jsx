@@ -1,34 +1,28 @@
 import React from "react";
-import Title from '../components/Title';
 import Paragraph from "../components/Paragraph";
 import Subheader from "../components/Subheader";
-import Navbar from "../components/Navbar";
+import Page from "../components/Page";
 
 import { welcomeText, clickText, handsOnText, ocHacksText, educationText } from "../text";
 
 export default function Home() {
     return (
-        <>
-        <Navbar />
-        <div className="container">
-            <Title />
-            <Paragraph>{welcomeText + "\n\n" + clickText}</Paragraph>
-             <div className="row tall-row">
-            <Subheader level={1}>Our Projects:</Subheader>
-            <hr />
+        <Page>
+            {welcomeText}
+            {clickText} 
+            <div className="row tall-row">
+                <Subheader level={1}>Our Projects:</Subheader>
+                <hr />
             </div>
            
-            {/*TODO: ADD BUTTON / ROUTER FUNCTIONALITY + CREATE PAGES*/}
-            {/*TODO: ADD IMAGES?*/}
             <Subheader level={2} link='/handsOn'>Hands-On Experience</Subheader>
-            <Paragraph>{handsOnText}</Paragraph>
-            {/*TODO: ADD UNIQUE TEXT*/}
+            {handsOnText}
+
             <Subheader level={2} link='/ocHacks'>OCHacks</Subheader>
-            <Paragraph>{ocHacksText}</Paragraph>
+            {ocHacksText}
 
             <Subheader level={2} link='/education'>Education</Subheader>
-            <Paragraph>{educationText}</Paragraph>
-        </div>
-        </>
+            {educationText}
+        </Page>
     )
 }
